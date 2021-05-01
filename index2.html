@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="new.js"></script>
+
+</head>
+<body>
+
+
+<div class="container">
+    <div class="cal">
+        <input type="text" placeholder="0" id="input" maxlength="10">
+
+        <div align="">
+            <button id="button-7" class="btn btn-dark btn-num m n" value="7" onclick="insertNum(7)" >7</button>
+            <button id="button-8" class="btn btn-dark btn-num m n" value="8" onclick="insertNum(8)">8</button>
+            <button id="button-9"class="btn btn-dark btn-num m n" value="9" onclick="insertNum(9)">9</button>
+            <button id="button-plus"class="btn btn-dark btn-num m operator" value="+" onclick="insertNum('+')">&plus;</button>
+        </div>
+
+        <div align="">
+            <button id="button-4"class="btn btn-dark btn-num m n" value="4"onclick="insertNum(4)" >4</button>
+            <button id="button-5"class="btn btn-dark btn-num m n" value="5"onclick="insertNum(5)">5</button>
+            <button id="button-6"class="btn btn-dark btn-num m n" value="6"onclick="insertNum(6)">6</button>
+            <button id="button-minus"class="btn btn-dark btn-num m operator" value="minus" onclick="insertNum('-')">&minus;</button>
+        </div>
+        <div align="">
+            <button id="button-1"class="btn btn-dark btn-num m n" value="1" onclick="insertNum(1)" >1</button>
+            <button id="button-2"class="btn btn-dark btn-num m n" value="2"onclick="insertNum(2)">2</button>
+            <button id="button-3"class="btn btn-dark btn-num m n" value="3"onclick="insertNum(3)">3</button>
+            <button id="button-multiply"class="btn btn-dark btn-num m operator" value="times" onclick="insertNum('*')">&times;</button>
+        </div>
+
+        <div align="">
+            <button id="button-0"class="btn btn-dark btn-num m n" value="0"onclick="insertNum(0)" >0</button>
+            <button id="button-clear"class="btn btn-dark btn-num m n"     onclick="clear1()">AC</button>
+            <button id="button-equal"class="btn btn-dark btn-num m n"   value="equals" onclick="calculate()">=</button>
+            <button id="button-divide"class="btn btn-dark btn-num m operator" value="divide" onclick="insertNum('/')">&divide;</button>
+        </div>
+    </div>
+
+
+
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<link rel="stylesheet" href="main.css">
+</body>
+</html>
